@@ -1,11 +1,106 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Roboto Mono', monospace;
 
 }
 #header{
-    height: 50px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    height: 60px;
+
+    /* height: fit-content; */
+    max-height: 100px;
     background-color: yellow;
     width:100vw;
     box-sizing: border-box;
+    box-shadow: 0px 1px 5px 5px rgba(182, 182, 180, 0.3);
+}
+#header ul{
+    position: relative;
+    right:5vw;
+    list-style-type: none;
+    
+
+}
+#header ul li{
+    float: right;
+    padding: 20px;
+    cursor: pointer;
+    
+}
+#header ul li:hover{
+    background-color:yellowgreen;
+    color: white;
+
+}
+#search{
+    padding: 0px 30px; 
+}
+#search input{
+    padding: 0px
+}
+
+#top{
+    height:100px;
+}
+#top h1{
+    padding:10px;
+}
+
+#hpercent{
+    width:100vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    height:fit-content;
+    min-height: 80vh;
+    border: 1px solid black;
+}
+#tfpercent{
+    width:25%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 100%;
+    /* height: 400px; */
+}
+#sfpercent{
+    width:75%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 100%;
+    /* height: 400px; */
+}
+#tpercent{
+    width:30%;
+    box-sizing: border-box;
+    border: 1px solid blueviolet;
+    height: 100%;
+    float:right;
+}
+#spercent{
+    
+        width:70%;
+        box-sizing: border-box;
+        border: 1px solid blueviolet;
+        height: 100%;
+        padding:20px;
+        font-size:1.2em;
+        /* float:right; */
+}
+#footer{
+    box-sizing:border-box;
+ 
+    height:30vh;
+    width:100vw;
+    background-color:yellowgreen;
+}
+#inner-footer{
+    position: absoute;
+    top: 25vh;
+    box-sizing:border-box;
+    height:5vh;
+    width:100vw;
+    background-color:yellow;
 }
