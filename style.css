@@ -1,5 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
 #header{
     height: 50px;
     background-color: yellow;
     width:100vw;
+    box-sizing: border-box;
 }
